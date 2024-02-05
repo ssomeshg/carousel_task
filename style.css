@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.carousel__section{
+    width: 100%;
+    text-align: center;
+}
+.carousel__box{
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 50px auto;
+    border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+    
+}
+
+.carousel__box .icon__next h1{
+background-color: #8d0692;
+color: #fff;
+width: fit-content;
+padding:0px 10px;
+border-radius: 50px;
+position: absolute;
+right: -10px;
+top: 50%;
+}
+.carousel__box .icon__prev h1{
+    background-color: #8d0692;
+    color: #fff;
+    width: fit-content;
+    padding:0px 10px;
+    border-radius: 50px;
+    position: absolute;
+left: -10px;
+top: 50%;
+}
+.move__item{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+.move__item ul{
+    display: flex;
+    gap: 10px;
+}
+
+.move__item ul li{
+    list-style: none;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 50px;
+}
